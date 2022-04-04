@@ -16,6 +16,6 @@ function countAnimals(animal) {
   return foundAnimal.residents.length;
 }
 
-console.log(countAnimals({ specie: 'lions' }));
+console.log(countAnimals());
 
 module.exports = countAnimals;
